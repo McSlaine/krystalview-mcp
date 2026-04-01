@@ -1,0 +1,37 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcslaine/krystalview",
+  "title": "KrystalView Analytics",
+  "description": "AI agent access to website analytics — sessions, visitor behavior, friction scores, anomaly detection, and funnel analysis.",
+  "repository": {
+    "url": "https://github.com/McSlaine/krystalview-mcp",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "krystalview-mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "KRYSTALVIEW_API_KEY",
+          "description": "Your KrystalView API key (generate in console under Settings > API Keys)",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true
+        },
+        {
+          "name": "KRYSTALVIEW_BASE_URL",
+          "description": "API base URL (default: https://app.krystalview.com/api)",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": false
+        }
+      ]
+    }
+  ]
+}
