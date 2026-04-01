@@ -81,7 +81,7 @@ Once connected, try asking your AI assistant:
 | Variable | Required | Default | Description |
 |----------|----------|---------|-------------|
 | `KRYSTALVIEW_API_KEY` | Yes | — | Your KrystalView API key |
-| `KRYSTALVIEW_BASE_URL` | No | `https://app.krystalview.com/api` | API base URL |
+| `KRYSTALVIEW_BASE_URL` | No | `https://krystalview.com/api` | API base URL |
 | `KRYSTALVIEW_TIMEOUT` | No | `15` | Request timeout in seconds |
 
 ## Rate Limits

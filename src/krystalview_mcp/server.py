@@ -20,7 +20,7 @@ from mcp.server.fastmcp import FastMCP
 
 API_KEY = os.environ.get("KRYSTALVIEW_API_KEY", "")
 BASE_URL = os.environ.get(
-    "KRYSTALVIEW_BASE_URL", "https://app.krystalview.com/api"
+    "KRYSTALVIEW_BASE_URL", "https://krystalview.com/api"
 ).rstrip("/")
 TIMEOUT = int(os.environ.get("KRYSTALVIEW_TIMEOUT", "15"))
 
