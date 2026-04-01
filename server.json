@@ -1,18 +1,18 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.mcslaine/krystalview",
+  "name": "io.github.McSlaine/krystalview",
   "title": "KrystalView Analytics",
-  "description": "AI agent access to website analytics — sessions, visitor behavior, friction scores, anomaly detection, and funnel analysis.",
+  "description": "AI agent access to website analytics, session replay, and anomaly detection.",
   "repository": {
     "url": "https://github.com/McSlaine/krystalview-mcp",
     "source": "github"
   },
-  "version": "0.1.1",
+  "version": "0.1.2",
   "packages": [
     {
       "registryType": "pypi",
       "identifier": "krystalview-mcp",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "transport": {
         "type": "stdio"
       },

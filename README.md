@@ -95,7 +95,7 @@ API keys have configurable rate limits (default: 60 requests per minute). Rate l
 - Keys can be rotated or revoked in the KrystalView console
 - No data is stored by the MCP server — it proxies directly to the KrystalView API
 
-<!-- mcp-name: io.github.mcslaine/krystalview -->
+<!-- mcp-name: io.github.McSlaine/krystalview -->
 
 ## License
 
